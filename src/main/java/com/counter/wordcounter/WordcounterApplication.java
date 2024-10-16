@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WordcounterApplication {
 
 	public static void main(String[] args) {
+
+		System.out.println("Hello Application Started");
 		SpringApplication.run(WordcounterApplication.class, args);
 	}
 
